@@ -34149,12 +34149,37 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: -26px;
   }
 }
-
+@media (max-width: 991px) {
+  .u-header .u-group-1 {
+    margin-top: 20px;
+    margin-right: -46px;
+    margin-left: auto;
+  }
+}
 
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 157px;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: 76px;
+    margin-right: auto;
+    margin-left: -25px;
+  }
+
   .u-header .u-group-1 {
-    width: 340px;
-    margin-left: 0;
+    min-height: 62px;
+    width: 291px;
+    margin-top: -49px;
+    margin-right: 0;
+  }
+
+  .u-header .u-image-1 {
+    width: 265px;
+    height: 40px;
+    margin: -51px 13px 44px auto;
   }
 }
 .u-footer {
